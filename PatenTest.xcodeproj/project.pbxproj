@@ -13,6 +13,13 @@
 		6D277D5B1E2A5EE400E8FE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D277D591E2A5EE400E8FE48 /* Main.storyboard */; };
 		6D277D5D1E2A5EE400E8FE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D277D5C1E2A5EE400E8FE48 /* Assets.xcassets */; };
 		6D277D601E2A5EE400E8FE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D277D5E1E2A5EE400E8FE48 /* LaunchScreen.storyboard */; };
+		6D277D691E2A5FDB00E8FE48 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D277D681E2A5FDB00E8FE48 /* TableViewController.m */; };
+		6DB4C5251E2B4C8B00AF10E4 /* AbstractDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4C5241E2B4C8B00AF10E4 /* AbstractDevice.m */; };
+		6DB4C5291E2B4D5100AF10E4 /* GassDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4C5281E2B4D5100AF10E4 /* GassDevice.m */; };
+		6DB4C52C1E2B557E00AF10E4 /* HeaterDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4C52B1E2B557E00AF10E4 /* HeaterDevice.m */; };
+		6DB4C52F1E2B559400AF10E4 /* HoodDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4C52E1E2B559400AF10E4 /* HoodDevice.m */; };
+		6DB4C5331E2B56E400AF10E4 /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4C5321E2B56E400AF10E4 /* DeviceManager.m */; };
+		6DB4C5361E2B5A7200AF10E4 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4C5351E2B5A7200AF10E4 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		6D277D5C1E2A5EE400E8FE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D277D5F1E2A5EE400E8FE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D277D611E2A5EE400E8FE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D277D671E2A5FDB00E8FE48 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		6D277D681E2A5FDB00E8FE48 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		6DB4C5231E2B4C8B00AF10E4 /* AbstractDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractDevice.h; path = Devices/AbstractDevice.h; sourceTree = "<group>"; };
+		6DB4C5241E2B4C8B00AF10E4 /* AbstractDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractDevice.m; path = Devices/AbstractDevice.m; sourceTree = "<group>"; };
+		6DB4C5271E2B4D5100AF10E4 /* GassDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GassDevice.h; path = Devices/GassDevice.h; sourceTree = "<group>"; };
+		6DB4C5281E2B4D5100AF10E4 /* GassDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GassDevice.m; path = Devices/GassDevice.m; sourceTree = "<group>"; };
+		6DB4C52A1E2B557E00AF10E4 /* HeaterDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaterDevice.h; path = Devices/HeaterDevice.h; sourceTree = "<group>"; };
+		6DB4C52B1E2B557E00AF10E4 /* HeaterDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaterDevice.m; path = Devices/HeaterDevice.m; sourceTree = "<group>"; };
+		6DB4C52D1E2B559400AF10E4 /* HoodDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoodDevice.h; path = Devices/HoodDevice.h; sourceTree = "<group>"; };
+		6DB4C52E1E2B559400AF10E4 /* HoodDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoodDevice.m; path = Devices/HoodDevice.m; sourceTree = "<group>"; };
+		6DB4C5311E2B56E400AF10E4 /* DeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceManager.h; path = Model/DeviceManager.h; sourceTree = "<group>"; };
+		6DB4C5321E2B56E400AF10E4 /* DeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceManager.m; path = Model/DeviceManager.m; sourceTree = "<group>"; };
+		6DB4C5341E2B5A7200AF10E4 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		6DB4C5351E2B5A7200AF10E4 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				6D277D4F1E2A5EE400E8FE48 /* PatenTest */,
+				6DB4C5221E2B4C3200AF10E4 /* Devices */,
+				6DB4C5301E2B56AB00AF10E4 /* Model */,
 				6D277D4E1E2A5EE400E8FE48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +83,10 @@
 			children = (
 				6D277D531E2A5EE400E8FE48 /* AppDelegate.h */,
 				6D277D541E2A5EE400E8FE48 /* AppDelegate.m */,
+				6D277D671E2A5FDB00E8FE48 /* TableViewController.h */,
+				6D277D681E2A5FDB00E8FE48 /* TableViewController.m */,
+				6DB4C5341E2B5A7200AF10E4 /* CustomTableViewCell.h */,
+				6DB4C5351E2B5A7200AF10E4 /* CustomTableViewCell.m */,
 				6D277D561E2A5EE400E8FE48 /* ViewController.h */,
 				6D277D571E2A5EE400E8FE48 /* ViewController.m */,
 				6D277D591E2A5EE400E8FE48 /* Main.storyboard */,
@@ -77,6 +104,38 @@
 				6D277D511E2A5EE400E8FE48 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DB4C5221E2B4C3200AF10E4 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				6DB4C5231E2B4C8B00AF10E4 /* AbstractDevice.h */,
+				6DB4C5241E2B4C8B00AF10E4 /* AbstractDevice.m */,
+				6DB4C5261E2B4D2D00AF10E4 /* SubDevices */,
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
+		6DB4C5261E2B4D2D00AF10E4 /* SubDevices */ = {
+			isa = PBXGroup;
+			children = (
+				6DB4C5271E2B4D5100AF10E4 /* GassDevice.h */,
+				6DB4C5281E2B4D5100AF10E4 /* GassDevice.m */,
+				6DB4C52A1E2B557E00AF10E4 /* HeaterDevice.h */,
+				6DB4C52B1E2B557E00AF10E4 /* HeaterDevice.m */,
+				6DB4C52D1E2B559400AF10E4 /* HoodDevice.h */,
+				6DB4C52E1E2B559400AF10E4 /* HoodDevice.m */,
+			);
+			name = SubDevices;
+			sourceTree = "<group>";
+		};
+		6DB4C5301E2B56AB00AF10E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DB4C5311E2B56E400AF10E4 /* DeviceManager.h */,
+				6DB4C5321E2B56E400AF10E4 /* DeviceManager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +210,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D277D581E2A5EE400E8FE48 /* ViewController.m in Sources */,
+				6DB4C52F1E2B559400AF10E4 /* HoodDevice.m in Sources */,
+				6DB4C5291E2B4D5100AF10E4 /* GassDevice.m in Sources */,
 				6D277D551E2A5EE400E8FE48 /* AppDelegate.m in Sources */,
+				6DB4C5331E2B56E400AF10E4 /* DeviceManager.m in Sources */,
+				6DB4C5251E2B4C8B00AF10E4 /* AbstractDevice.m in Sources */,
 				6D277D521E2A5EE400E8FE48 /* main.m in Sources */,
+				6DB4C52C1E2B557E00AF10E4 /* HeaterDevice.m in Sources */,
+				6DB4C5361E2B5A7200AF10E4 /* CustomTableViewCell.m in Sources */,
+				6D277D691E2A5FDB00E8FE48 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +373,7 @@
 				6D277D661E2A5EE400E8FE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
